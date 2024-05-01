@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+    .container {
+      max-width: 800px; 
+      margin: 0 auto;
+      padding: 20px;
+      overflow: hidden; 
+    }
+    .logo {
+      background-color: #7400B8;
+      width: 20px;
+      height: 20px;
+      margin-bottom: 20px;
+    }
+    .header {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .sub-header {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .google-btn, .login-btn, .login-link {
+      display: inline-block;
+      background-color: #101540;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      width: calc(100% - 20px);
+      text-align: center;
+      text-decoration: none; /* Remove default link underline */
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    .input-field {
+      width: calc(95% - 40px); 
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .register-link {
+      text-align: center;
+      font-size: 18px;
+    }
+    .login-form {
+      float: left; 
+      width: 47.5%; 
+    }
+    .login-image {
+      float: right; 
+      width: 400px;
+      height: 350px; 
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-form">
+      <div class="logo"></div>
+      <div class="header">Login</div>
+      <div class="sub-header">See your growth and get support!</div>
+      <button class="google-btn">Sign in with Google</button>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-field" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="input-field" placeholder="Minimum 8 characters">
+      </div>
+      <div class="checkbox-group">
+        <label for="remember">
+          <input type="checkbox" id="remember"> Remember me
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <!-- Styled the login button similar to the sign-up button -->
+      <a href="Dashboard.html" class="login-btn">Login</a>
+      <div class="register-link">Not registered yet? <a href="Register page.html">Create</a></div>
+    </div>
+    <img src="ref.jpg" class="login-image">
+  </div>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #EDF0F2;
+
+}
+.container {
+ margin:20px;
+
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.box1{
+  background: rgb(255, 255, 255);
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(178, 176, 176, 0.2);
+}
+
+.box2{
+  background: rgb(255, 255, 255);
+  position: relative;
+  flex: 1;
+  max-width: 922px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(178, 176, 176, 0.2);
+}
+.box3{
+  background: rgb(255, 255, 255);
+  position: relative;
+  flex: 1;
+  max-width: 322px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(178, 176, 176, 0.2);
+}
+
+.box4{
+  background: rgb(255, 255, 255);
+  position: relative;
+  flex: 1;
+  max-width: 922px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(178, 176, 176, 0.2);
+}
+
+.box5{
+  background: rgb(255, 255, 255);
+  position: relative;
+  flex: 1;
+  max-width: 322px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(178, 176, 176, 0.2);
+  text-align: center;
+}
+
+.container .row .box1 button{
+  border: none;
+  background-color: white;
+  }
+  
+  .container .row .box2 button{
+    border: none;
+    background-color: white;
+    }
+  
+    .container .row .box3 button{
+      border: none;
+      background-color: white;
+      }
+
+/* style for nav bar*/
+button.buttom {
+  margin-right: 70px;
+  border: none;
+  background-color: white;
+  
+}
+div.menu {
+  background-color: #FFFFFf;
+  padding: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+  /*height: 50px;*/
+}
+
+.topnav {
+  overflow: hidden;
+  float: right;
+  margin-top: 0px;
+}
+
+
+
+
+.topnav .search-container button {
+  float: right;
+  padding: 1px 1px;
+  margin-top: 1px;
+  margin-right: 16px;
+  background: #7400B8;
+  font-size: -10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button, .menu {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+/* Search Container Styles*/
+
+
+.search-container {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+padding: 10px;
+margin-right: 10px; 
+font-size: 16px; 
+border: 2px solid #ccc;
+border-radius: 8px;
+}
+
+.sidebar{
+  position:absolute;
+  height: 730px;
+  margin-bottom: 200px;
+  background-color: #7400B8;
+  color: white;
+  padding: 1px;
+  width: 100px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  
+}
+.sidebar a img {
+  color: white;
+ 
+  
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  margin: 30px;
+}
+

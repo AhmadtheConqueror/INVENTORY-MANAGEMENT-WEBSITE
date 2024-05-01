@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Dashboard.css" />
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <label for="">
+        <div class="slide">
+            <div class="menu">
+                <button class="buttom"><img src="Group 19.svg" alt=""></button>
+                <div class="topnav">
+                    <div class="search-container">
+                        <form action="action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><img src="filter.svg" alt=""></button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </label>
+  
+  <main>
+    
+    
+        <div class="sidebar">
+            <ul>
+              <li><a class="active" href="Dashboard.html"><img  class="photo"  src="Vector1.svg" alt="">Dashboard</a></li>
+              <li><a class="active" href="yabani.html"><img class="photo" src="Vector1.svg" alt="">InStock </a></li>
+              <li><a class="active" href="Great Agu's - All items (Under Products) 11.html"><img class="photo" src="Vector1.svg" alt="">Products</a></li>
+              <li><a class="active" href="sales.html"><img class="photo" src="Vector1.svg" alt="">Sales</a></li>
+              <li><a class="active" href="Order2.html"><img class="photo" src="Vector1.svg" alt="">Orders</a></li>
+              <li><a class="active" href="index.html"><img class="photo" src="icon.svg" alt="">Payment method</a></li>
+              </ul>
+        </div>
+         </header>
+    <div class="container">
+      <h1 class="head_text">Payment Details</h1>
+
+      <form id="payment-form">
+        <section class="form_grid">
+          <div class="left_side">
+            <div class="payment-method">
+              <label for="payment-method">Choose Payment Method</label>
+              <!-- <ion-icon name="radio-button-on-outline"></ion-icon>  -->
+              <select id="payment-method">
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+              </select>
+            </div>
+
+            <div class="card-number">
+              <label for="card-number">Card Number</label>
+              <div class="icon-name">
+                <ion-icon name="card-outline"></ion-icon>
+                <input type="text" placeholder="" id="card-number" />
+              </div>
+            </div>
+
+            <section class="card_security">
+              <div class="expiry-date">
+                <input type="text" placeholder="MM/YY" id="expiry-date" />
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="cvv">
+                <input type="text" placeholder="CVV" id="cvv" />
+                <ion-icon name="journal-outline"></ion-icon>
+              </div>
+            </section>
+
+            <div class="country">
+              <label for="country">Select Your Country</label>
+
+              <select id="country">
+                <option value="BE">Belgium</option>
+                <option value="NG">Nigeria</option>
+                <option value="DK">Denmark</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="IT">Italy</option>
+                <option value="NL">Netherlands</option>
+                <option value="NO">Norway</option>
+                <option value="ES">Spain</option>
+              </select>
+            </div>
+
+            <div class="card_address">
+              <div>
+                <input type="text" placeholder="City" id="city" />
+              </div>
+              <div>
+                <input type="text" placeholder="State" id="state" />
+              </div>
+              <div>
+                <input type="text" placeholder="Zip code" id="zip" />
+              </div>
+            </div>
+          </div>
+
+          <div class="right_side">
+            <div class="username">
+              <label for="username">Username</label>
+              <input type="text" placeholder="Username" id="username" />
+            </div>
+
+            <div class="email">
+              <label for="email">Email Address</label>
+              <input type="email" placeholder="Example@gmail.com" id="email" />
+            </div>
+
+            <div class="currency">
+              <label for="currency">Currency</label>
+
+              <select id="currency">
+                <option value="USD">United States Dollar (USD)</option>
+                <option value="NGN">Nigerian Naira (NGN)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">British Pound Sterling (GBP)</option>
+                <option value="JPY">Japanese Yen (JPY)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
+                <option value="CHF">Swiss Franc (CHF)</option>
+                <option value="SEK">Swedish Krona (SEK)</option>
+                <option value="NZD">New Zealand Dollar (NZD)</option>
+              </select>
+            </div>
+
+            <div class="tax_rate">
+              <label for="tax_rate">Tax Rate</label>
+              <select id="rate">
+                <option value="" class="default">Select a tax</option>
+              </select>
+            </div>
+
+            <button class="btn" type="submit">Pay Now</button>
+          </div>
+        </section>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

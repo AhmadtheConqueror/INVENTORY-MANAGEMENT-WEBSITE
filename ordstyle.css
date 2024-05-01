@@ -1,0 +1,289 @@
+hr{
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 1319px;
+}
+button{
+    border: 0;
+    padding: 5px;
+}
+.b3{
+    background-color: #7400B8;
+}
+.sidebar button:hover{
+    color: #7400B8;
+    background-color: hwb(0 100% 0% / 0.5);
+}
+.bar{
+    flex: 0.35;
+    justify-self: flex-start;
+    text-align: center;
+    align-self: center;
+    text-align: left;
+    width: 100px;
+    margin-left: 36px;
+}
+.bar > .b1{
+    background-color: white;
+    border: 0px;
+    color: #7400B8;
+}
+.right{
+    flex: 4;
+    align-self: center;
+    justify-content: flex-end;
+    text-align: end;
+}
+.menu .left{
+    align-self: flex-end;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    gap: 20px;
+}
+.sidebar{
+    background-color: #7400B8;
+    flex-direction: column;
+    flex: 0.3;
+    justify-content: flex-start;
+    font-family: arial;
+    
+}
+.sidebar li{
+   color: white;
+}
+.sidebar  ul,li{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    padding-bottom: 60px;
+    text-wrap: nowrap;
+}
+.content{
+    background-color: white;
+    flex: 4;
+    height:100vh;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 1300px;
+}
+.head1{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 1200px;
+    gap: 20px;
+}
+.lest {
+    flex: 4;
+    align-self: center;
+    text-align: end;
+    font-size: large;
+    text-align: end;
+    font-family: arial;
+
+}
+.lest > table{
+    margin-left: auto;
+    border-spacing: 12px;
+    text-wrap: nowrap;
+}
+.lest button{
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: large;
+    border-radius: 5px;
+}
+.lest .first{
+    background-color: white;
+}
+.lest button:hover{
+    background-color: #7400B8;
+    color: white;
+}
+.lest .sec{
+    background-color: #7400B8;
+    color: white;
+    
+}
+
+.rest{
+    flex: 4;
+    align-self: center;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 20px;
+    font-family: arial;
+    color: #7400B8;
+}
+.fist{
+    border: 1px solid #7400B8;
+    color: #7400B8;
+
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    gap: 20px;
+    width: 1150px;
+}
+.dest {
+    flex: 4;
+    align-self: center;
+    text-align: end;
+    font-size: large;
+    text-align: end;
+    justify-content: flex-end;
+    font-family: arial;
+}
+.pest{
+    flex: 4;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 20px;
+}
+.search-cont{
+    width: 220px;
+    height: 30px;
+    margin-left:900px;
+}
+ #shad{
+  border: 0;
+  height: 23px;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 9px 6px 20px #b9b9b9;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.tcont{
+    display: flex;
+    justify-content: start;
+}
+.tcont  table{
+    border-spacing: 60px;
+    text-wrap: nowrap;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+#sal,#sed,#srf{
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    border-color: rgb(216, 216, 216);
+}
+.tcont tr{
+    border-bottom: 10px solid  black;
+}
+.tcont th{
+    font-family: arial;
+    font-weight: bold;
+}
+.tcont td{
+    font-family: arial;
+    font-weight: lighter;
+}
+.stats-comp{
+    border: 2px solid rgb(69, 184, 69);
+    border-radius: 50px;
+    background-color: rgb(69, 184, 69);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.search-container{
+    margin-left: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+}
+.b2{
+    border: 0;
+    background-color: white;
+}
+.sinp{
+    border: 0;
+    width: 175px;
+    height: 30px;
+    position: relative;
+    bottom: 3px;
+    background-color: white;
+}
+.sinp:active{
+    border: 0;
+}
+.sinp2{
+    border: 0px;
+    width: 260px;
+    height: 30px;
+    position: relative;
+    bottom: 2px;
+    background-color: white;
+    
+}
+@media(max-width:500px){
+    .menu{
+        width: 300px;
+        
+    }
+    .sidebar{
+        width: 60px;
+        height: 100vh;
+    }
+    .container{
+        width: 500px;
+        
+    }   
+    .head1{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        width: 300px;
+        gap: 20px;
+        display: block;
+    }
+    .head2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        height: 20vh;
+        gap: 20px;
+        width: 300px;
+        display: block;
+    }
+    .tcont{
+        display: flex;
+        flex: 6;
+        justify-content: start;
+        width: 300px;
+        
+    }
+    .tcont table{
+        width: 400px;
+    }
+    .lest{
+        text-wrap: wrap;
+    }
+    .dest{
+        display: block;
+    }
+    .pest{
+        display: block;
+    }
+    
+    
+}

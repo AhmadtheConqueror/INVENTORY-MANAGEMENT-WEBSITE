@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="ordstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <header>
+        <div class="menu">
+            <div class="bar"><button class="b1"><span><img src="bar2.svg" alt="Bar logo"></span></button></div>
+            <div class="right">
+                <div >
+                    <form action="/action_page.php" class="search-cont" id="shad">
+                      <button type="submit" class="b2"><img src="Group 3.svg" alt="Search logo" style="height: 20px; width: 20px;"></button>
+                      <input type="text" placeholder="Search.." name="search" class="sinp">
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </header>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><span ><button class="b3"><a href="Dashboard.html"><img src="Group 1.svg" alt="sidebar logos"></a></button></span><br>Dashboard</li>
+                <li><span ><button class="b3"><a href="yabani.html"><img src="Group 1.svg"></a></button></span><br>In Stock</li>
+                <li><span ><button class="b3"><a href="Great Agu's - All items (Under Products) 11.html"><img src="Group 1.svg"></a></button></span><br>Products</li>
+                <li><span ><button class="b3"><a href="sales.Html"><img src="Group 1.svg"></a></button></span><br>Sales</li>
+                <li><span ><button class="b3" id="act"><a href="Order2.html"><img src="Group 6.svg" alt="active logo"></a></button></span><br>Orders</li>
+                <li><span ><button class="b3"><a href="payment method.html"><img src="Group 1.svg"></a></button></span><br>Payment Method</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="head1">
+                <div class="rest"><h1>Orders</h1></div>
+                <div class="lest">
+                    <table>
+                        <tr>
+                            <td><button class="fist">Export to excel</button></td>
+                            <td><button class="fist"> Import Orders</button></td>
+                            <td><button class="sec">+ New Orders</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="head2">
+                <div class="pest">
+                    <div>
+                        <form action="/action_page.php" class="search-container">
+                          <button type="submit" class="b2"><img src="Group 2.svg" alt="search logo"></button>
+                          <input type="text" placeholder="Search Order ID" name="search" class="sinp2">
+                        </form>
+                      </div>
+                </div>
+                <div class="dest">
+                    <select name="Sales" id="sal">
+                        <option value="Sales">Sales</option>
+                        <option value="volvo">Ascending</option>
+                        <option value="saab">Descending</option>
+                      </select>
+                      <select name="Status" id="sed">
+                        <option value="Status">Status</option>
+                        <option value="volvo">Completed</option>
+                        <option value="saab">Pending</option>
+                      </select>
+                      <select name="Filter" id="srf">
+                        <option value="Filter">Filter</option>
+                        <option value="volvo">Ascending</option>
+                        <option value="saab">Descending</option>
+                      </select>
+                </div>
+            </div>
+            <div class="tcont">
+                <table>
+                    <tr>
+                        <th>C</th>
+                        <th>Order ID</th>
+                        <th>Date</th>
+                        <th>Customer</th>
+                        <th>Sales Channel</th>
+                        <th>Destination</th>
+                        <th>Items</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#0000</td>
+                        <td>dd/mm/yy</td>
+                        <td>fName Sname</td>
+                        <td>Store name</td>
+                        <td>Latipur</td>
+                        <td>no.</td>
+                        <td class="stats-comp">completed</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#0000</td>
+                        <td>dd/mm/yy</td>
+                        <td>fName Sname</td>
+                        <td>Store name</td>
+                        <td>Latipur</td>
+                        <td>no.</td>
+                        <td class="stats-comp">completed</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#0000</td>
+                        <td>dd/mm/yy</td>
+                        <td>fName Sname</td>
+                        <td>Store name</td>
+                        <td>Latipur</td>
+                        <td>no.</td>
+                        <td class="stats-comp">completed</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
